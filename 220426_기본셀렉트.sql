@@ -1,0 +1,10 @@
+SELECT*FROM membertbl;
+
+SELECT MEMBERID, MEMBERNAME FROM membertbl;
+
+SELECT MEMBERID, MEMBERNAME FROM membertbl
+WHERE memberid = 'Dang';
+
+
+SELECT MEMBERID, MEMBERNAME FROM membertbl
+WHERE upper(memberid) = 'DANG';
